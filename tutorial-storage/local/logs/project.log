@@ -1,0 +1,95 @@
+2017-10-19T02:58:58.638Z - normal: Load ~/.CocosCreator/settings.json
+2017-10-19T02:58:58.645Z - normal: checking language setting...
+2017-10-19T02:58:58.645Z - normal: Language: zh
+2017-10-19T02:59:21.473Z - success: protocol editor-framework registered
+2017-10-19T02:59:21.474Z - success: protocol app registered
+2017-10-19T02:59:21.474Z - success: protocol theme registered
+2017-10-19T02:59:21.474Z - success: protocol profile registered
+2017-10-19T02:59:21.474Z - success: protocol packages registered
+2017-10-19T02:59:21.475Z - success: protocol unpack registerred
+2017-10-19T02:59:21.494Z - success: protocol disable-commonjs registerred
+2017-10-19T02:59:21.846Z - normal: connected!
+2017-10-19T02:59:21.864Z - normal: Check project E:\CocosProjects\tutorial-storage
+2017-10-19T02:59:21.868Z - normal: Initializing Cocos2d
+2017-10-19T02:59:27.119Z - normal: Initializing Asset Database
+2017-10-19T02:59:27.857Z - success: protocol uuid registerred
+2017-10-19T02:59:27.858Z - success: protocol db registerred
+2017-10-19T02:59:27.858Z - success: protocol thumbnail registerred
+2017-10-19T02:59:27.859Z - normal: Loading editor/builtin packages
+2017-10-19T02:59:28.292Z - success: anysdk loaded
+2017-10-19T02:59:28.717Z - success: assets loaded
+2017-10-19T02:59:28.722Z - success: builder loaded
+2017-10-19T02:59:28.744Z - success: hierarchy loaded
+2017-10-19T02:59:28.751Z - success: inspector loaded
+2017-10-19T02:59:28.754Z - success: keystore loaded
+2017-10-19T02:59:28.761Z - success: node-library loaded
+2017-10-19T02:59:28.793Z - success: package-asset loaded
+2017-10-19T02:59:28.799Z - success: preferences loaded
+2017-10-19T02:59:28.802Z - success: project-exporter loaded
+2017-10-19T02:59:28.832Z - success: project-importer loaded
+2017-10-19T02:59:28.835Z - success: project-settings loaded
+2017-10-19T02:59:28.843Z - success: ui-kit loaded
+2017-10-19T02:59:28.874Z - success: ui-grid loaded
+2017-10-19T02:59:28.882Z - success: scene loaded
+2017-10-19T02:59:28.884Z - success: sprite-editor loaded
+2017-10-19T02:59:28.890Z - success: store loaded
+2017-10-19T02:59:28.930Z - success: timeline loaded
+2017-10-19T02:59:28.931Z - normal: Loading builtin packages
+2017-10-19T02:59:28.941Z - success: asset-db-debugger loaded
+2017-10-19T02:59:28.943Z - success: color-picker loaded
+2017-10-19T02:59:28.950Z - success: console loaded
+2017-10-19T02:59:28.955Z - success: package-manager loaded
+2017-10-19T02:59:28.982Z - success: sdkbox loaded
+2017-10-19T02:59:28.988Z - success: tester loaded
+2017-10-19T02:59:28.992Z - success: ui-kit-preview-extra loaded
+2017-10-19T02:59:28.996Z - success: ui-kit-preview loaded
+2017-10-19T02:59:29.011Z - success: ui-tree loaded
+2017-10-19T02:59:32.651Z - normal: Initializing project E:\CocosProjects\tutorial-storage
+2017-10-19T02:59:32.683Z - normal: Loading packages
+2017-10-19T02:59:32.692Z - normal: Watching packages
+2017-10-19T02:59:32.756Z - normal: Run Application
+2017-10-19T03:00:09.758Z - success: preview server running at http://localhost:7456
+2017-10-19T03:00:31.019Z - normal: 1.6.1
+2017-10-19T03:01:18.498Z - warn: The Asset used by component "cc.Label" in scene "launch.fire" is missing. Detailed information:
+Node path: "Canvas/layout/btn_storage/Label"
+Asset url: "db://assets/launch.fire"
+Missing uuid: "ec2260e2-992b-4c8d-b405-cf232c95d623"
+
+2017-10-19T03:01:18.500Z - warn: The Asset used by component "cc.Label" in scene "launch.fire" is missing. Detailed information:
+Node path: "Canvas/layout/btn_read/Label"
+Asset url: "db://assets/launch.fire"
+Missing uuid: "ec2260e2-992b-4c8d-b405-cf232c95d623"
+
+2017-10-19T03:01:18.503Z - warn: The Asset used by component "cc.Label" in scene "launch.fire" is missing. Detailed information:
+Node path: "Canvas/layout/btn_remove/Label"
+Asset url: "db://assets/launch.fire"
+Missing uuid: "ec2260e2-992b-4c8d-b405-cf232c95d623"
+
+2017-10-19T03:01:18.506Z - warn: The Asset used by component "cc.Label" in scene "launch.fire" is missing. Detailed information:
+Node path: "Canvas/layout/btn_clear/Label"
+Asset url: "db://assets/launch.fire"
+Missing uuid: "ec2260e2-992b-4c8d-b405-cf232c95d623"
+
+2017-10-19T03:07:57.690Z - success: VS Code extension installed to C:\Users\388171\.vscode\extensions
+2017-10-19T03:08:08.144Z - success: API data generated and copied to E:\CocosProjects\tutorial-storage\creator.d.ts
+2017-10-19T03:08:15.562Z - success: Chrome debug setting has been updated to .vscode/launch.json, please install Debugger for Chrome VS Code extension to debug your project.
+2017-10-19T03:08:29.407Z - success: Compiling task has been added to .vscode/tasks.json, please run "compile" task in VS Code to trigger compile in Cocos Creator.
+2017-10-19T03:38:19.757Z - failed: [db-task][sync-changes] Failed to import asset E:\CocosProjects\tutorial-storage\assets\scripts\main.js, message: Compile error: SyntaxError: E:/CocosProjects/tutorial-storage/assets/scripts/main.js: Unexpected token, expected , (24:8)
+  22 |             type: cc.Button
+  23 |         }
+> 24 |         btn_clear: {
+     |         ^
+  25 |             default: null,
+  26 |             type: cc.Button
+  27 |         },
+    at Parser.pp$5.raise (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (E:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2017-10-19T06:52:03.461Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:186334
