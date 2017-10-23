@@ -1,0 +1,84 @@
+2017-10-12T07:35:45.907Z - normal: Load ~/.CocosCreator/settings.json
+2017-10-12T07:35:45.924Z - normal: checking language setting...
+2017-10-12T07:35:45.926Z - normal: Language: zh
+2017-10-12T07:35:52.789Z - success: protocol editor-framework registered
+2017-10-12T07:35:52.791Z - success: protocol app registered
+2017-10-12T07:35:52.791Z - success: protocol theme registered
+2017-10-12T07:35:52.791Z - success: protocol profile registered
+2017-10-12T07:35:52.792Z - success: protocol packages registered
+2017-10-12T07:35:52.792Z - success: protocol unpack registerred
+2017-10-12T07:35:52.792Z - success: protocol disable-commonjs registerred
+2017-10-12T07:35:53.285Z - normal: connected!
+2017-10-12T07:35:53.296Z - normal: Check project E:\CocosProjects\start_project
+2017-10-12T07:35:53.331Z - normal: Initializing Cocos2d
+2017-10-12T07:35:56.024Z - normal: Initializing Asset Database
+2017-10-12T07:35:56.274Z - success: protocol uuid registerred
+2017-10-12T07:35:56.274Z - success: protocol db registerred
+2017-10-12T07:35:56.275Z - success: protocol thumbnail registerred
+2017-10-12T07:35:56.275Z - normal: Loading editor/builtin packages
+2017-10-12T07:35:56.448Z - success: anysdk loaded
+2017-10-12T07:35:57.773Z - success: assets loaded
+2017-10-12T07:35:57.782Z - success: builder loaded
+2017-10-12T07:35:57.797Z - success: hierarchy loaded
+2017-10-12T07:35:57.806Z - success: inspector loaded
+2017-10-12T07:35:57.810Z - success: keystore loaded
+2017-10-12T07:35:57.821Z - success: node-library loaded
+2017-10-12T07:35:57.827Z - success: package-asset loaded
+2017-10-12T07:35:57.834Z - success: preferences loaded
+2017-10-12T07:35:57.839Z - success: project-exporter loaded
+2017-10-12T07:35:57.886Z - success: project-importer loaded
+2017-10-12T07:35:57.901Z - success: project-settings loaded
+2017-10-12T07:35:57.907Z - success: ui-kit loaded
+2017-10-12T07:35:57.914Z - success: ui-grid loaded
+2017-10-12T07:35:57.926Z - success: scene loaded
+2017-10-12T07:35:57.930Z - success: sprite-editor loaded
+2017-10-12T07:35:57.949Z - success: store loaded
+2017-10-12T07:35:57.969Z - success: timeline loaded
+2017-10-12T07:35:57.970Z - normal: Loading builtin packages
+2017-10-12T07:35:57.981Z - success: asset-db-debugger loaded
+2017-10-12T07:35:57.983Z - success: color-picker loaded
+2017-10-12T07:35:57.992Z - success: console loaded
+2017-10-12T07:35:58.001Z - success: package-manager loaded
+2017-10-12T07:35:58.021Z - success: sdkbox loaded
+2017-10-12T07:35:58.029Z - success: tester loaded
+2017-10-12T07:35:58.037Z - success: ui-kit-preview-extra loaded
+2017-10-12T07:35:58.043Z - success: ui-kit-preview loaded
+2017-10-12T07:35:58.047Z - success: ui-tree loaded
+2017-10-12T07:36:03.683Z - normal: Initializing project E:\CocosProjects\start_project
+2017-10-12T07:36:03.715Z - normal: Loading packages
+2017-10-12T07:36:03.727Z - normal: Watching packages
+2017-10-12T07:36:03.805Z - normal: Run Application
+2017-10-12T07:36:18.744Z - success: preview server running at http://localhost:7456
+2017-10-12T07:36:50.968Z - normal: 1.6.1
+2017-10-12T08:58:39.643Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78450
+2017-10-13T00:33:24.876Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78953
+2017-10-13T00:33:25.026Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78957
+2017-10-13T00:33:25.032Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78959
+2017-10-13T00:33:25.818Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78961
+2017-10-13T00:33:25.819Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78963
+2017-10-13T00:33:25.819Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78965
+2017-10-13T00:33:25.820Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78967
+2017-10-13T00:33:25.820Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78969
+2017-10-13T00:33:34.473Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78971
+2017-10-13T00:33:34.474Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78973
+2017-10-13T00:33:34.474Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78975
+2017-10-13T00:33:35.113Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78977
+2017-10-13T00:33:35.125Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78979
+2017-10-13T00:33:35.147Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78981
+2017-10-13T00:33:35.457Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78983
+2017-10-13T00:33:35.461Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78985
+2017-10-13T00:33:35.462Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78987
+2017-10-13T00:33:35.467Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78989
+2017-10-13T00:33:35.473Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78991
+2017-10-13T00:33:35.474Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78993
+2017-10-13T00:33:35.475Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78995
+2017-10-13T00:33:35.475Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78997
+2017-10-13T00:33:35.476Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:78999
+2017-10-13T00:33:35.476Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:79001
+2017-10-13T00:33:35.477Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:79003
+2017-10-13T00:33:35.478Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:79005
+2017-10-13T00:33:35.478Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:79007
+2017-10-13T00:33:35.479Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:79009
+2017-10-13T00:35:03.700Z - warn: [object Object]
+2017-10-13T00:37:43.175Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:80771
+2017-10-13T00:44:42.254Z - info: shutdown preview server
