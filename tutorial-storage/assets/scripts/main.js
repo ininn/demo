@@ -5,7 +5,7 @@ var UserData = {
     vip: false
 };
 
-var Base64;
+//var Base64;
 
 cc.Class({
     extends: cc.Component,
@@ -58,7 +58,7 @@ cc.Class({
         this.userdata_name.string = UserData.name;
         this.userdata_level.string = UserData.level;
         this.userdata_vip.string = UserData.vip;
-        Base64 = require("base64");
+        //Base64 = require("base64");
     },
 
     _readData: function () {
@@ -86,8 +86,10 @@ cc.Class({
         // Encrypt
         var dataText = JSON.stringify(UserData);
         var ciphertext;
+        var temptext;
         for(var k in UserData) {
-            ciphertext = btoa(encodeURI(UserData[k]));
+            temptext = encodeURI(UserData[k]);
+            ciphertext = btoa(temptext);
             cc.sys.localStorage.setItem(k, ciphertext);
         }
         this.label_control.string = "存储用户数据";
