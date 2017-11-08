@@ -1,11 +1,11 @@
 
 var UserData = {
-    name: "小逗逼",
+    name: "hello",
     level: 1,
     vip: false
 };
 
-//var Base64;
+var Base64;
 
 cc.Class({
     extends: cc.Component,
@@ -58,19 +58,22 @@ cc.Class({
         this.userdata_name.string = UserData.name;
         this.userdata_level.string = UserData.level;
         this.userdata_vip.string = UserData.vip;
-        //Base64 = require("base64");
+        Base64 = require("base64");
     },
 
     _readData: function () {
         var label_cipherData_text = "";
         var label_decryptionData_text = "";
         var dataText, decryptionText;
+        //cc.sys.localStorage.setItem("aaa","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+
         for(var k in UserData) {
             var dataText = cc.sys.localStorage.getItem(k);
             if (dataText === null) {
                 break;
             }
-            decryptionText = decodeURI(atob(dataText));
+            //decryptionText = decodeURI(atob(dataText));
+            decryptionText = Base64.decode(dataText);
             // Decrypt
             label_cipherData_text += k + ":" + dataText + "\n";
             label_decryptionData_text += k + ":" + decryptionText + "\n";
@@ -86,12 +89,14 @@ cc.Class({
         // Encrypt
         var dataText = JSON.stringify(UserData);
         var ciphertext;
-        var temptext;
+        
         for(var k in UserData) {
-            temptext = encodeURI(UserData[k]);
-            ciphertext = btoa(temptext);
+            //ciphertext = btoa(encodeURI(UserData[k]));
+            ciphertext = Base64.encode(UserData[k]);
             cc.sys.localStorage.setItem(k, ciphertext);
         }
+        
+
         this.label_control.string = "存储用户数据";
         this.label_cipherData.string = "存储完毕";
         this.label_decryptionData.string = "存储完毕";

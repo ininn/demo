@@ -4,14 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
- 
-        {
-            "name": "Cocos-Debug",
-            "type": "cocos",
-            "request": "attach",
-            "port": 5086,
-            "address": "localhost",
-            "cwd": "${workspaceRoot}"
-        }
+ {
+     "type": "chrome",
+     "request": "launch",
+     "name": "Launch Chrome",
+     "url": "10.43.76.45:7456",
+     "webRoot": "${workspaceRoot}"
+ }
     ]
 }
